@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_testimonials_item_items",
+  "info": {
+    "displayName": "Items",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Lora Joly",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "default": "Founder at Envato",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "feedbackText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

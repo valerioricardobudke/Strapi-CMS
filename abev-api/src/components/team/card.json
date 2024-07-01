@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_team_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Franco Gino",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "facebookLink": {
+      "type": "string",
+      "default": "https://www.facebook.com/"
+    },
+    "twitterLink": {
+      "type": "string",
+      "default": "https://www.twitter.com/"
+    },
+    "linkedinLink": {
+      "type": "string",
+      "default": "https://www.linkedin.com/"
+    },
+    "instagramLink": {
+      "type": "string",
+      "default": "https://www.instagram.com/"
+    }
+  }
+}

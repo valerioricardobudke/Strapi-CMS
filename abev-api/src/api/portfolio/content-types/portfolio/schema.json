@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolios",
+  "info": {
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "Portfolio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "iconName": {
+      "type": "string",
+      "required": true,
+      "default": "flaticon-startup"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Sed est non feugiat sagi ttis donec.",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Learn More",
+      "required": true
+    },
+    "detailsText": {
+      "type": "richtext",
+      "required": true
+    },
+    "liveDemoText": {
+      "type": "string",
+      "default": "Check Live Link"
+    },
+    "liveDemoLink": {
+      "type": "string"
+    }
+  }
+}

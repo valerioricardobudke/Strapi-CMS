@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "big_data_risk_managements",
+  "info": {
+    "singularName": "big-data-risk-management",
+    "pluralName": "big-data-risk-managements",
+    "displayName": "Big Data - Risk Management"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Risk Management",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est non feugiat sagittis, donec.",
+      "required": true
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "overview-list.lists",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

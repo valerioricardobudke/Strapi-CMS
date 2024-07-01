@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonial_style_2s",
+  "info": {
+    "singularName": "testimonial-style-2",
+    "pluralName": "testimonial-style-2s",
+    "displayName": "Testimonial Style 2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Testimonials",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Here’s what our amazing clients are saying",
+      "required": true
+    },
+    "feedbacks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials-item.items"
+    }
+  }
+}

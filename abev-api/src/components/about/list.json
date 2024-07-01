@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_about_lists",
+  "info": {
+    "displayName": "list",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

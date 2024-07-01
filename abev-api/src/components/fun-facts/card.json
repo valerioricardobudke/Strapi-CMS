@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_fun_facts_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "iconName": {
+      "type": "string",
+      "default": "flaticon-employee",
+      "required": true
+    }
+  }
+}

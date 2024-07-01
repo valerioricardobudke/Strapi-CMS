@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricing_features",
+  "info": {
+    "singularName": "pricing-feature",
+    "pluralName": "pricing-features",
+    "displayName": "Pricing Feature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FeaturesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-features.features"
+    }
+  }
+}

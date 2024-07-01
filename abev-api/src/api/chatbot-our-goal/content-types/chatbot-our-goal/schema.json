@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "chatbot_our_goals",
+  "info": {
+    "singularName": "chatbot-our-goal",
+    "pluralName": "chatbot-our-goals",
+    "displayName": "Chatbot - Our Goal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Our Goal",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Deal with customer queries in minutes",
+      "required": true
+    },
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.list"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get Started Now",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "subscribe_our_newsletters",
+  "info": {
+    "singularName": "subscribe-our-newsletter",
+    "pluralName": "subscribe-our-newsletters",
+    "displayName": "Subscribe Our Newsletter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Subscribe Our Newsletter",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "The latest resources, sent to your inbox weekly",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

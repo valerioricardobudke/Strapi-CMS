@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_working_processes",
+  "info": {
+    "singularName": "our-working-process",
+    "pluralName": "our-working-processes",
+    "displayName": "Our Working Process",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Our Working Process"
+    },
+    "title": {
+      "type": "string",
+      "default": "Dedicated to help anything people’s needs",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "processList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "working-process.process"
+    }
+  }
+}

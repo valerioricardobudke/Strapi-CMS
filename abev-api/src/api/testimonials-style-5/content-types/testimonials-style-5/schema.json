@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonials_style_5s",
+  "info": {
+    "singularName": "testimonials-style-5",
+    "pluralName": "testimonials-style-5s",
+    "displayName": "Testimonials Style 5"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Here's what our amazing clients are saying",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur mauris amet, placerat fames orci elementum adipiscing.",
+      "required": true
+    },
+    "feedbacks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials-item.items"
+    }
+  }
+}

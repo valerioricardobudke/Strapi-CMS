@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_list_services",
+  "info": {
+    "displayName": "services",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "iconName": {
+      "type": "string",
+      "default": "flaticon-draw-check-mark",
+      "required": true
+    }
+  }
+}

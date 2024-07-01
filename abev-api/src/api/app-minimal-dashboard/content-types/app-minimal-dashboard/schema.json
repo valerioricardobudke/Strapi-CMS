@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_minimal_dashboards",
+  "info": {
+    "singularName": "app-minimal-dashboard",
+    "pluralName": "app-minimal-dashboards",
+    "displayName": "App - Minimal Dashboard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Minimal Dashboard",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "The world’s most powerful & easy-to-use",
+      "required": true
+    },
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.list"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get Started Now",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "image2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonials_thumbs_imgs",
+  "info": {
+    "singularName": "testimonials-thumbs-img",
+    "pluralName": "testimonials-thumbs-imgs",
+    "displayName": "Testimonials Thumbs Img"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "thumbsImg": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partners.image"
+    }
+  }
+}

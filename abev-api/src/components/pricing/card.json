@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_pricing_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Basic Team",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Powerful & awesome elements",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "default": "$29"
+    },
+    "date": {
+      "type": "string",
+      "default": "/month",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Purchage Plan",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    },
+    "featuresList1": {
+      "type": "string"
+    },
+    "featuresList2": {
+      "type": "string"
+    },
+    "featuresList3": {
+      "type": "string"
+    },
+    "featuresList4": {
+      "type": "string"
+    },
+    "featuresList5": {
+      "type": "string"
+    },
+    "featuresList6": {
+      "type": "string"
+    }
+  }
+}

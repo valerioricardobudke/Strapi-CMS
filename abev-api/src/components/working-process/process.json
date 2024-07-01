@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_working_process_processes",
+  "info": {
+    "displayName": "process",
+    "icon": "angle-double-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string",
+      "required": true,
+      "default": "1"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Analysis & Research"
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est non feugiat sagittis, donec.",
+      "required": true
+    }
+  }
+}

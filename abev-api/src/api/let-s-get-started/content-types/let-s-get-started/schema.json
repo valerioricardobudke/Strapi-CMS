@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "let_s_get_starteds",
+  "info": {
+    "singularName": "let-s-get-started",
+    "pluralName": "let-s-get-starteds",
+    "displayName": "Let's Get Started"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "We're delivering the best customer experience",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Let's Get Started",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_overview_list_lists",
+  "info": {
+    "displayName": "lists",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

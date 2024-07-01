@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "it_startup_banners",
+  "info": {
+    "singularName": "it-startup-banner",
+    "pluralName": "it-startup-banners",
+    "displayName": "IT Startup - Banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Secure IT solutions for a more secure environment",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "default": "Velit hendrerit sit auctor tempor sem. Congue mi tempor condimentum felis arcu, non cursus. Nulla pharetra porttitor sed platea arcu et leo odio.",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get Started Now",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "shapeImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    }
+  }
+}

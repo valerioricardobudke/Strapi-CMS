@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_socials_socials_lists",
+  "info": {
+    "displayName": "socialsList",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "IconName": {
+      "type": "string",
+      "default": "flaticon-facebook-app-symbol",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "default": "https://www.facebook.com/",
+      "required": true
+    }
+  }
+}

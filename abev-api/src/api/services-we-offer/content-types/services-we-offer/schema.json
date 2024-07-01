@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_we_offers",
+  "info": {
+    "singularName": "services-we-offer",
+    "pluralName": "services-we-offers",
+    "displayName": "IT Startup - Services We Offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Services We Offer",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "We are here, to help your startup business",
+      "required": true
+    },
+    "servicesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.services"
+    }
+  }
+}

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Abev - Creative Multipurpose React Nextjs Template</title>
+        <link href="css/collection.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet" type="text/css">
+        <script src="js/other.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".sidebar" data-offset="50">
+        <aside class="sidebar sidebar-boxed sidebar-dark">  
+            <ul class="nav sidenav dropable">
+                <li><a href="#introduction" title="Getting Started">Getting Started</a></li>
+                <li><a href="#getting_started" title="Setup Development Envrionment">Setup Development Environment</a></li>
+                <li><a href="#production_build">Production Build</a></li>
+                <li><a href="#documenter_cover">Pages and Components Info</a></li>
+                <li><a href="#dependencies" title="Dependencies">Dependencies</a></li>
+                <li><a href="#site_title" title="Change the Site Title">Change the Site Title</a></li>
+                <li><a href="#favicon" title="Change the Favicon">Change the Favicon</a></li>
+                <li><a href="#change_logo" title="Change the Logo">Change the Logo</a></li>
+                <li><a href="#customize_menu" title="Customize Menu">Customize Menu</a></li>
+                <li><a href="#footer" title="Footer">Footer</a></li>
+                <li><a href="#404" title="404 Error Page">404 Error Page</a></li>
+                <li><a href="#go_top" title="Back to Top Arrow">Back to Top Arrow</a></li>
+                <li><a href="#global_color" title="Global Color Options">Global Color Options</a></li>
+                <li><a href="#fonts_used" title="Fonts">Fonts</a></li>
+                <li><a href="#run_scss_file" title="Color Change Option">SCSS File</a></li>
+				<li><a href="#Contact_Form_Setup" title="Fonts">Contact Form Setup</a></li>
+                <li><a href="#supports" title="Support">Support</a></li>
+            </ul>
+        </aside>
+
+        <header class="site-header navbar-transparent"> 
+            <div class="banner auto-size" style="background-color: #455aa2">
+                <div class="container-fluid">
+                    <h1><strong>Abev - React</strong> Documentation</h1>
+                </div>
+            </div>
+        </header>
+        
+        <main class="container-fluid"> 
+            <article class="main-content" role="main">
+                <section id="introduction">
+                    <div class="page-header">
+                        <h3>Getting Started</h3>
+                    </div>
+					<p>Welcome to Abev React Next.js + Strapi template! We would like to thank you, for buy our template - Abev.</p>
+                    <p> Abev is a React, Next.js, Strapi and Bootstrap 5 based Multipurpose template. This has been built with React and as framework Next.js + Strapi!</p>
+                </section>
+			 
+                <section id="getting_started">
+                    <div class="page-header">
+                        <h3>Setup Development Environment</h3>
+                    </div>
+                    <p>
+                        To kickstart the development of the web app with Abev, at first need to setup the react development environment.
+                    </p>
+                    <p>Following tools are needed to setup a react dev environment:</p>
+                    <ul>
+                        <li><b>Node JS</b></li>
+                        <p>
+                            NodeJS works as a node package manager behind the scene. It is recommended to download and install the latest version of Node JS from its official site <a href="https://nodejs.org/en/" target="_blank">https://nodejs.org/en/</a>
+                        </p>
+                    </ul>
+
+                    <ul>
+                        <li><b>PostgreSQL</b></li>
+                        <p>
+                            Download and install <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads" target="_blank">PostgreSQL</a> with PGAdmin.
+                        </p>
+                    </ul>
+
+                    <ul>
+                        <li><b>Cloudinary</b></li>
+                        <p>
+                            Go to <a href="https://cutt.ly/mzHPuRw">Cloudinary</a> and create an account.
+                        </p>
+                    </ul>
+ 
+                    <div class="page-header">
+                        <h3>Strapi Version</h3>
+                    </div>
+
+                    <p><b>Strapi Backend</b> please follow the below steps</p>
+
+                    <p>- Open the <code>abev-strapi/abev-api</code> and update the <code>abev-api/config/plugin.js</code> file as the <a href="https://cloudinary.com/" target="_blank">cloudinary</a> credentials.</p>
+
+                    <p>- Open the pgAdmin server & create the database name like <code>abev-api</code> and restore the <code>abev-api-demo-data</code> from the downloaded bundle.</p>
+
+                    <p>- Open the <code>abev-strapi/config/database.js</code> and update your PostgreSQL credentials & database name.</p>
+                    
+                    <p>- Run the command <code>npm install</code></p>
+
+                    <p>- Run the command <code>npm run develop</code></p>
+
+                    <p>- Go To <a href="http://localhost:1337/admin" target="_blank">http://localhost:1337/admin</a></p>
+
+                    <p>- Email <code>hello@abev.com</code> and Password: <code>EnvyTheme1</code></p>
+
+                    <p>- Done</p>
+ 
+
+
+                    <p><b>Strapi Front-End</b> please follow the below steps</p>
+
+                    <p>- Now open the <code>abev-strapi/abev</code> folder which is in that directory like <code>abev-strapi/abev</code> and follow like below by opening another command prompt in this folder. </p>
+                    
+                    <p>- Run the command <code>npm install</code></p>
+
+                    <p>- Run the command <code>npm run dev</code></p>
+
+                    <p>- Go To <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a></p>
+
+                    <p>- Done</p>
+ 
+                    <p><b>Still confused? Don’t worry! Check the referenced installation and configuration Video Tutorial below</b></p>
+                    <p><a href="https://www.youtube.com/watch?v=HJ419H_E4dY" target="_blank">Click to Watch The Video</a></p>
+                </section>
+				
+				<section id="production_build">
+					<div class="page-header">
+                        <h3>For Production Build</h3>
+                    </div>
+					<p>Run <b>npm run build</b> to build the project.</p>
+                    <p>Run : <code class="language-markup">npm run build</code></p>
+                    <p>Then Run : <code class="language-markup">npm run start</code></p>
+                    <p>See the official next.js doc <a href="https://nextjs.org/docs/deployment#other-hosting-options" target="_blank">here</a></p>
+                    
+                    <p><b>Update here your website URL</b></p>
+                    <p><img src="img/baseUrl.png" alt=""></p>
+         
+				</section>
+
+                <section id="documenter_cover">
+                    <div class="page-header">
+                        <h3>Pages and Components Info</h3>
+                    </div>
+                    
+                    <div id="documenter_buttons"></div>
+					<ul>
+						<li>Home IT Startup (<b>/pages/index.js</b>)</li>
+						<!-- <li>Home Business (<b>/pages/business.js</b>)</li>
+						<li>Home App (<b>/pages/app.js</b>)</li>
+						<li>Home Insurance (<b>/pages/insurance.js</b>)</li>
+						<li>Home Property (<b>/pages/property.js</b>)</li>
+						<li>Home Big Data (<b>/pages/big-data.js</b>)</li>
+						<li>Home Distance Learning (<b>/pages/distance-learning.js</b>)</li>
+						<li>Home Chatbot (<b>/pages/chatbot.js</b>)</li>
+						<li>Home Software (<b>/pages/software.js</b>)</li>
+						<li>Home Medical (<b>/pages/medical.js</b>)</li>
+						<li>Services (<b>/pages/services/services.js</b>)</li> -->
+                        <!-- <li>and more...</li> -->
+					</ul>
+		
+                    <h6 style="margin-top:20px"><strong>Common Components:</strong></h6>
+                    <ul>
+						<li>Navbar1 (<b>/components/Layout/Navigations/Navbar1.js</b>)</li>
+						<!-- <li>Navbar2 (<b>/components/Layout/Navigations/Navbar2.js</b>)</li>
+						<li>Navbar3 (<b>/components/Layout/Navigations/Navbar3.js</b>)</li>
+						<li>Navbar4 (<b>/components/Layout/Navigations/Navbar4.js</b>)</li>
+						<li>Navbar5 (<b>/components/Layout/Navigations/Navbar5.js</b>)</li>
+						<li>Navbar6 (<b>/components/Layout/Navigations/Navbar6.js</b>)</li>
+						<li>Navbar7 (<b>/components/Layout/Navigations/Navbar7.js</b>)</li>
+						<li>Navbar8 (<b>/components/Layout/Navigations/Navbar8.js</b>)</li>
+						<li>Navbar9 (<b>/components/Layout/Navigations/Navbar9.js</b>)</li>
+						<li>Navbar10 (<b>/components/Layout/Navigations/Navbar10.js</b>)</li> -->
+						<li>FooterOne (<b>/components/Layout/Footer/FooterOne.js</b>)</li>
+						<!-- <li>FooterTwo (<b>/components/Layout/Footer/FooterTwo.js</b>)</li>
+						<li>FooterThree (<b>/components/Layout/Footer/FooterThree.js</b>)</li>
+						<li>FooterFour (<b>/components/Layout/Footer/FooterFour.js</b>)</li>
+						<li>FooterFive (<b>/components/Layout/Footer/FooterFive.js</b>)</li>
+						<li>FooterSix (<b>/components/Layout/Footer/FooterSix.js</b>)</li>
+						<li>FooterSeven (<b>/components/Layout/Footer/FooterSeven.js</b>)</li>
+						<li>FooterEight (<b>/components/Layout/Footer/FooterEight.js</b>)</li>
+						<li>FooterNine (<b>/components/Layout/Footer/FooterNine.js</b>)</li> -->
+						<li>PageTitle (<b>/components/Layout/PageTitle.js</b>)</li>
+						<li>ScrollToTop (<b>/components/Layout/ScrollToTop.js</b>)</li>
+						<li>BlogPostStyle1 (<b>/components/Common/BlogPostStyle1.js</b>)</li>
+						<li>GetStarted (<b>/components/Common/GetStarted.js</b>)</li>
+						<li>OurCreativeTeam (<b>/components/Common/OurCreativeTeam.js</b>)</li>
+						<li>PageTopTitle (<b>/components/Common/PageTopTitle.js</b>)</li>
+						<li>SubscribeStyle1 (<b>/components/Common/SubscribeStyle1.js</b>)</li>
+					</ul>
+                </section>
+
+                <section id="dependencies">
+                    <div class="page-header">
+                        <h3>Dependencies</h3>
+                    </div>
+                    <p> Here are the <strong>dependencies</strong> list which being used in the Abev React Template:</p>
+                    <pre class="line-numbers">
+<code class="language-markup"> 
+"dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "fslightbox-react": "^1.7.6",
+    "next": "^14.1.4",
+    "nodemailer": "^6.9.13",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "react-responsive-carousel": "^3.2.22",
+    "react-tabs": "^6.0.2",
+    "sass": "^1.72.0",
+    "sharp": "^0.33.3",
+    "sweetalert2": "^11.10.7",
+    "sweetalert2-react-content": "^5.0.7",
+    "swiper": "^11.0.7"
+}
+</code>
+                    </pre class="brush:css">
+                </section>
+				 
+				<section id="site_title">
+                    <div class="page-header">
+                        <h3>Change the Site Title</h3>
+						<p>To change your Site Title by following screenshot</p>
+                    </div>
+					<img src="img/site-title.png">
+                </section>
+				
+				<section id="favicon">
+                    <div class="page-header">
+                        <h3>Change the Favicon</h3>
+                    </div>
+					<p>To change your Site Favicon by following screenshot</p>
+					<img src="img/favivon-path.png">
+                </section>
+				
+				<section id="change_logo">
+                    <div class="page-header">
+                        <h3>Change the Logo</h3>
+                    </div>
+					<p>To change your Site logo by following screenshot</p>
+					<img src="img/logo-path.png">
+                </section>
+				
+				<section id="customize_menu">
+                    <div class="page-header">
+                        <h3>Customize Menu</h3>
+                    </div>
+					<p>By following the screenshot you can change the navigation menu</p>
+					<img src="img/navbar.png">
+                </section>
+				
+				<section id="footer">
+                    <div class="page-header">
+                        <h3>Footer</h3>
+                    </div>
+					<p>To change Footer Layout and setting you can change by following this screenshot here.</p>
+					<img src="img/footer.png">
+                </section>
+				
+				<section id="404">
+                    <div class="page-header">
+                        <h3>404 Page</h3>
+                    </div>
+					<p>To change 404 and setting you can change by following this screenshot here.</p>
+					<img src="img/404.png">
+                </section>
+				
+				<section id="go_top">
+                    <div class="page-header">
+                        <h3>Back to Top Arrow</h3>
+                    </div>
+					<p>To change Back to Top Arrow and setting you can change by following this screenshot here.</p>
+					<img src="img/back-top.png">
+                </section>
+				 
+				<section id="global_color">
+                    <div class="page-header">
+                        <h3>Global Color Options</h3>
+                    </div>
+					<p>To change global color options file path /styles/style.scss</p>
+					
+					<img src="img/scss.png">
+					
+					<p style="margin-top: 15px;"><b>Note:</b> After SCSS file run then it will be work</p>
+                </section>
+		  
+                <section id="fonts_used">
+                    <div class="page-header">
+                        <h3>Fonts Used</h3>
+                    </div>
+                    <p> By default, the template loads <strong>Roboto & Jost</strong> font from Google Web Font Services, you can change the font with the one that suits you best. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a></p></p>
+                 
+                    <img src="img/font.png">
+                </section>
+				 
+				<section id="run_scss_file">
+                    <div class="page-header">
+                        <h3>How to Run The SCSS File</h3>
+                    </div>
+                    
+					<p>Please open the file Visual Studio Code Editor. And follow the video tutorial.</p>
+					<p>Here the Link: <a href="https://www.youtube.com/watch?v=0MWmv1Gvv5w" target="_blank">https://www.youtube.com/watch?v=0MWmv1Gvv5w</a></p>
+                </section>
+				
+				<section id="Contact_Form_Setup">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">Contact Form Setup</h3>
+                    </div>
+                    <p>
+						Please create the SendGrid API key follow the below link: <br>
+						
+						<a href="https://sendgrid.com/docs/ui/account-and-settings/api-keys/" target="_blank">https://sendgrid.com/docs/ui/account-and-settings/api-keys/</a>
+					</p>
+				 
+                    <p>Please follow the screenshot instruction file path: pages/api/contact.js</p>
+					
+					<img src="img/email.png" >
+					<br />
+					<br />
+					<img src="img/baseUrl.png" >
+                </section>
+		 
+                <section id="supports">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">24-Hour Turnaround Support:</h3>
+                    </div>
+					 
+					<p>Quick, Dedicated & Professional Support!</p>
+					
+					<p>We only provide support through our ticketing system. Please submit your ticket by visiting the <a href="https://support.envytheme.com/" target="_blank">EnvyTheme Support System</a>.</p>
+					
+					<p>For any pre-purchase query, please use live chat on the item demo site also, email, and the item’s comment section on ThemeForest. Thanks!</p>
+                </section>
+            </article>
+        </main>
+ 
+        <footer class="site-footer">
+            <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p>Copyright &copy; Abev. All right reserved</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="footer-menu">
+                            <li><a href="https://support.envytheme.com/" target="_blank">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

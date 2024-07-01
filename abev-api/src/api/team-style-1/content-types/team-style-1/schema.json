@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_style_1s",
+  "info": {
+    "singularName": "team-style-1",
+    "pluralName": "team-style-1s",
+    "displayName": "Team Style 1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Team",
+      "unique": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Want to be a part of our team?",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus auctor purus risus, eu vitae neque, a platea sit. Dui nisi tempus in ac arcu. In neque laoreet mi malesuada quam morbi. Nisl sed a risus vitae, platea eget. Tortor, nisl aliquam urna dignissim.",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Contact Us",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact\"",
+      "required": true
+    },
+    "teamImgList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-img.image"
+    }
+  }
+}

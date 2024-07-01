@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_style_2s",
+  "info": {
+    "singularName": "team-style-2",
+    "pluralName": "team-style-2s",
+    "displayName": "Team Style 2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "teamCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team.card"
+    }
+  }
+}

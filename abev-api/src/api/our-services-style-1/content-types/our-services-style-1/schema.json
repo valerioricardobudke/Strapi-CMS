@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_services_style_1s",
+  "info": {
+    "singularName": "our-services-style-1",
+    "pluralName": "our-services-style-1s",
+    "displayName": "IT Startup - Our Services",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Our Services",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Best IT & technology service in your area",
+      "required": true
+    },
+    "servicesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.services"
+    }
+  }
+}

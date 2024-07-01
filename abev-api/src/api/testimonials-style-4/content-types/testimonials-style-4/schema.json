@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonials_style_4s",
+  "info": {
+    "singularName": "testimonials-style-4",
+    "pluralName": "testimonials-style-4s",
+    "displayName": "Testimonials Style 4"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Testimonials",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Here’s what our amazing clients are saying",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "feedbacks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials-item.items"
+    }
+  }
+}

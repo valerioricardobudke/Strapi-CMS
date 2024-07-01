@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "big_data_sales_increases",
+  "info": {
+    "singularName": "big-data-sales-increase",
+    "pluralName": "big-data-sales-increases",
+    "displayName": "Big Data - Sales Increase",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "default": "Sales Increase",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est non feugiat sagittis, donec.",
+      "required": true
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "overview-list.lists"
+    }
+  }
+}

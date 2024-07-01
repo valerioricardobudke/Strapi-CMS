@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_info_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "iconClass": {
+      "type": "string",
+      "default": "icon bg1",
+      "required": true
+    },
+    "infoText1": {
+      "type": "string"
+    },
+    "infoText2": {
+      "type": "string"
+    }
+  }
+}

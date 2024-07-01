@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "funfacts",
+  "info": {
+    "singularName": "funfact",
+    "pluralName": "funfacts",
+    "displayName": "Funfact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FunfactsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fun-facts.card"
+    }
+  }
+}

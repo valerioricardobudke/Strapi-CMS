@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonials_style_7s",
+  "info": {
+    "singularName": "testimonials-style-7",
+    "pluralName": "testimonials-style-7s",
+    "displayName": "Testimonials Style 7"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Testimonials",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Here’s what our amazing Students are saying",
+      "required": true
+    },
+    "feedbacks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials-item.items"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About Us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "About Us",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "The story behind our consulting firm",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id proin lectus in aliquam orci ornare nec. Commodo morbi tincidunt egestas velit.",
+      "required": true
+    },
+    "aboutList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.list"
+    }
+  }
+}

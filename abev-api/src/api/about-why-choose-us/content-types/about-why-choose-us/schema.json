@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_why_choose_uses",
+  "info": {
+    "singularName": "about-why-choose-us",
+    "pluralName": "about-why-choose-uses",
+    "displayName": "About - Why Choose Us?"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Why Choose Us?",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "We are here, to help your startup business<",
+      "required": true
+    },
+    "reason": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.list"
+    }
+  }
+}

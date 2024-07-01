@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_team_img_images",
+  "info": {
+    "displayName": "image",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

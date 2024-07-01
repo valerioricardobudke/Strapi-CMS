@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_our_goals",
+  "info": {
+    "singularName": "about-our-goal",
+    "pluralName": "about-our-goals",
+    "displayName": "About - Our Goal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Our Goal",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Best IT & technology service in your area",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "goalList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.list"
+    }
+  }
+}
